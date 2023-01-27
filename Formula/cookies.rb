@@ -5,7 +5,7 @@ class Cookies < Formula
   license "MIT"
   head "https://github.com/barnardb/cookies.git"
 
-  depends_on "go@1.15" => :build
+  depends_on "go@1.19" => :build
 
   def install
     system "go", "build"
